@@ -1,0 +1,36 @@
+/* custom.scss */
+
+/* import google font */
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
+
+$headings-font-family: 'Hepta Slab', serif;
+$font-family-base: 'Grenze', serif;
+
+$navbar-padding: 100px;
+
+$navbar-dark-color: orange;
+$navbar-toggler-border-radius:20px;
+
+$jumbotron-bg: orange;
+
+$text: white;
+
+.jumbotron-fluid {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.jumbotron 1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.jumbotron 2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+$jumbotron-padding: 10px;
+
+@import "bootstrap-4.0.0/scss/bootstrap";

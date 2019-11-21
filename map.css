@@ -1,0 +1,51 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 60px;
+  bottom: 60px;
+  left: 0px;
+  right: 60px;
+  width: 1300px;
+  height: 800px;
+}
+
+.jumbotron {
+	width: 100px;
+	height:800px;
+}
+
+#list-example {
+	position: absolute;
+	top: 660px;
+	bottom: 60px;
+	left: 1300px;
+	right: 0px;
+	width: 200px;
+	height: 200px;
+}
+
+#card {
+	position: absolute;
+	top: 60px;
+	bottom: 60px;
+	left: 1300px;
+	right: 0px;
+	width: 200px;
+	height: 600px;
+}
+
+#pic1 {
+	width: 120px;
+	height: 120px;
+}
+
+.p {
+	top: 20px;
+	size: 8px;
+}
+
+
