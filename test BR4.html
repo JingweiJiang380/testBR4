@@ -13,6 +13,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="test BR2.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Marvel|Pompiere|Staatliches&display=swap" rel="stylesheet">
 
     <title>Hello, Best run!</title>
 
@@ -35,7 +36,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="https://jingweijiang380.github.io/test-BR1/test%20BR.html">BEST RUN</a>
+  <a class="navbar-brand" href="https://jingweijiang380.github.io/test-BR1/test%20BR.html" id="title">BEST RUN</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -43,54 +44,78 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Lifestyles <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#" id="title">Lifestyles <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">News</a>
+        <a class="nav-link" href="#" id="title">News</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="title" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Sign in or sign up
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Sign in</a>
-          <a class="dropdown-item" href="#">Sign up</a>
-          <div class="dropdown-divider">About us</div>
-          <a class="dropdown-item" href="#">Contact us</a>
+          <a class="dropdown-item" href="#" id="title">Sign in</a>
+          <a class="dropdown-item" href="#" id="title">Sign up</a>
+          <div class="dropdown-divider" id="title">About us</div>
+          <a class="dropdown-item" href="#" id="title">Contact us</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Discover more</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" id="title">Discover more</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="title">
+      <button class="btn btn-outline-warning my-2 my-sm-0" type="submit" id="title">Search</button>
     </form>
   </div>
   </nav>
 
-  <div class="jumbotron">
-    <div id="map"></div>
+<div class="row">
+  <div class="col-8" id="map">
   </div>
-
-<div id="card" class="card text-black border-warning mb-3" style="max-width: 18rem;">
-  <div class="card-header">My profile</div>
-  <div class="card-body">
-    <h4 class="card-title">Milla</h4>
-    <img id="pic1" src="pics/characters.png" class="card-img-left" alt="...">
-    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+ 
+  <div class="col-4" id="cardyellow">
+  	<div class="card border-warning mb-3" style="max-width: 18rem;">
+    <div class="card-header" id="title">
+    	Profile page
+    </div>
+    <div class="card-body">
+    <h5 class="card-title" id="title">Lily</h5>
+    <img src="assets\img\9_avatar-512.png" width="200px" height="200px">
+    <p class="card-text" id="title2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button type="button" class="btn btn-outline-warning" id="title">See nearby people</button>
+    <button type="button" class="btn btn-outline-warning" id="title">Marked places</button>
+    <button type="button" class="btn btn-outline-warning" id="title">Marked routes</button>
+    <button type="button" class="btn btn-outline-warning" id="title">View history</button>
+    <button type="button" class="btn btn-outline-warning" id="title">Back to main</button>
+    <button type="button" class="btn btn-warning" id="title">Sign out</button>
+    </div>
+    </div>
   </div>
 </div>
 
-<div id="list-example" class="list-group">
-  <a class="list-group-item list-group-item-action" href="#list-item-1">See nearby runners</a>
-  <a class="list-group-item list-group-item-action" href="#list-item-2">See popular places</a>
-  <a class="list-group-item list-group-item-action" href="#list-item-3">See popular routes</a>
-  <a class="list-group-item list-group-item-action" href="#list-item-4">See report and history</a>
+<div id="beforefooter" class="row" id="footnew">
+  <div class="col">
+    <h6 id="title">HELP+INFO</h6>
+    <p id="title2">FAQ
+    See all help topics
+    Contact us</p>
+  </div>
+  <div class="col">
+    <h6 id="title">QUICK LINKS</h6>
+    <p id="title2">Creative services
+    Best run blogs
+  </p>
+  </div>
+  <div class="col">
+    <h6 id="title">GET OUR EMAILS</h6>
+    <p id="title2">Enter your email address: ___________________</p>
+  </div>
+  <div class="col">
+    <img src="assets\img\815506_apple-store-icon-png.png" width="100px" height="70px">
+  </div>
 </div>
-
-
 
 <footer>
   <div class="row">

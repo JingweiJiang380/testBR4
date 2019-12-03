@@ -5,37 +5,20 @@
 
 #map {
   position: absolute;
-  top: 60px;
+  top: 55px;
   bottom: 60px;
   left: 0px;
-  right: 60px;
-  width: 1300px;
+  right: 0px;
+  width: 1150px;
   height: 800px;
 }
 
-.jumbotron {
-	width: 100px;
-	height:800px;
-}
-
-#list-example {
+#cardyellow {
 	position: absolute;
-	top: 660px;
+	top: 55px;
 	bottom: 60px;
-	left: 1300px;
+	left: 1000px;
 	right: 0px;
-	width: 200px;
-	height: 200px;
-}
-
-#card {
-	position: absolute;
-	top: 60px;
-	bottom: 60px;
-	left: 1300px;
-	right: 0px;
-	width: 200px;
-	height: 600px;
 }
 
 #pic1 {
@@ -48,4 +31,23 @@
 	size: 8px;
 }
 
+  #title {
+    font-family: 'Staatliches', cursive;
+  }
 
+  #title2 {
+  	padding-top: 30px;
+    font-family: 'Marvel', sans-serif;
+  }
+
+#beforefooter {
+	padding-top: 810px;
+}
+  #foot {
+  	padding-top: 10px;
+  }
+
+#titlesignout {
+	font-family: 'Staatliches', cursive;
+	padding-top: 600px;
+}
